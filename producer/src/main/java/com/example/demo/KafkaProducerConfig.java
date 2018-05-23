@@ -48,14 +48,14 @@ public class KafkaProducerConfig {
         configProps.put(
                 "ssl.endpoint.identification.algorithm",
                 "HTTPS");
-        /*String saslJaasConfig =
+        String saslJaasConfig =
                 "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"USERNAME\" password=\"PASSWORD\";";
 
               String user = "JhzI79pqpumXFeyW";
               String password= "DGnwhbbUSewPiQpwRwU5aLDUxkEWrNa2";
               saslJaasConfig = saslJaasConfig.replace("USERNAME", user).replace("PASSWORD", password);
 
-        configProps.put("sasl.jaas.config", saslJaasConfig);*/
+        configProps.put("sasl.jaas.config", saslJaasConfig);
         
         return new DefaultKafkaProducerFactory<String, String>(configProps);
     }

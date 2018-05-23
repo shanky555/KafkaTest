@@ -1,3 +1,3 @@
-/Users/snigam@us.ibm.com/Documents/workspace/kafka-test/src/main/java/com/example/demo/KafkaProducerConfig.java
-/Users/snigam@us.ibm.com/Documents/workspace/kafka-test/src/main/java/com/example/demo/KafkaTestApplication.java
-/Users/snigam@us.ibm.com/Documents/workspace/kafka-test/src/main/java/com/example/demo/KafkaTestController.java
+/Users/snigam@us.ibm.com/Documents/workspace/kafka-test/producer/src/main/java/com/example/demo/KafkaProducerConfig.java
+/Users/snigam@us.ibm.com/Documents/workspace/kafka-test/producer/src/main/java/com/example/demo/KafkaTestApplication.java
+/Users/snigam@us.ibm.com/Documents/workspace/kafka-test/producer/src/main/java/com/example/demo/KafkaTestController.java
